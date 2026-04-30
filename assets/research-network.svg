@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 760" role="img" aria-label="Abstract transportation research network">
+  <defs>
+    <linearGradient id="line" x1="104" y1="176" x2="546" y2="614" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1f6feb"/>
+      <stop offset=".58" stop-color="#23867f"/>
+      <stop offset="1" stop-color="#a66a2a"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="760" fill="#fff"/>
+  <g opacity=".55" stroke="#e3eaf2" stroke-width="1">
+    <path d="M80 120h480M80 200h480M80 280h480M80 360h480M80 440h480M80 520h480M80 600h480"/>
+    <path d="M120 90v560M200 90v560M280 90v560M360 90v560M440 90v560M520 90v560"/>
+  </g>
+  <g fill="none" stroke-linecap="round">
+    <path d="M116 548C178 420 236 338 326 318c86-19 148 25 205 108" stroke="url(#line)" stroke-width="8"/>
+    <path d="M130 294c73 61 151 76 235 38 55-25 99-69 141-130" stroke="#23867f" stroke-width="5" opacity=".75"/>
+    <path d="M160 624c54-65 118-93 192-83 56 8 102 35 146 72" stroke="#a66a2a" stroke-width="5" opacity=".7"/>
+  </g>
+  <g fill="#fff" stroke="#d4dfeb" stroke-width="4">
+    <circle cx="116" cy="548" r="16"/>
+    <circle cx="326" cy="318" r="17"/>
+    <circle cx="531" cy="426" r="16"/>
+    <circle cx="130" cy="294" r="14"/>
+    <circle cx="506" cy="202" r="14"/>
+    <circle cx="352" cy="541" r="15"/>
+    <circle cx="498" cy="613" r="14"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#17202a">
+    <text x="92" y="590">Modeling</text>
+    <text x="345" y="293">Risk</text>
+    <text x="450" y="404">Flow</text>
+    <text x="386" y="566">Optimization</text>
+  </g>
+  <g transform="translate(105 92)">
+    <rect width="190" height="44" rx="8" fill="#f5f8fb" stroke="#dbe3eb"/>
+    <text x="18" y="28" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#445265">Transportation systems</text>
+  </g>
+  <g transform="translate(350 662)">
+    <rect width="178" height="42" rx="8" fill="#f8fafc" stroke="#dbe3eb"/>
+    <text x="18" y="27" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#445265">Decision analytics</text>
+  </g>
+</svg>

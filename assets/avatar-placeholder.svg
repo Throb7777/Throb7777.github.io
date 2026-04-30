@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" role="img" aria-label="Abstract avatar placeholder">
+  <defs>
+    <linearGradient id="bg" x1="44" y1="40" x2="430" y2="448" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#eef5ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="shape" x1="116" y1="92" x2="359" y2="382" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1f6feb"/>
+      <stop offset=".57" stop-color="#13a7a0"/>
+      <stop offset="1" stop-color="#ef8a26"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="480" fill="url(#bg)"/>
+  <path d="M58 350c83-15 119-88 174-89 65-1 96 84 190 66v93H58z" fill="#dce8f5"/>
+  <circle cx="242" cy="190" r="84" fill="#fff" stroke="#d8e2ec" stroke-width="7"/>
+  <path d="M156 390c14-74 45-112 86-112 43 0 76 39 91 112z" fill="#fff" stroke="#d8e2ec" stroke-width="7"/>
+  <path d="M144 126c50-52 142-61 205 3" fill="none" stroke="url(#shape)" stroke-width="12" stroke-linecap="round"/>
+  <path d="M111 260c65 26 145 15 237-35" fill="none" stroke="url(#shape)" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="134" cy="258" r="10" fill="#1f6feb"/>
+  <circle cx="252" cy="247" r="10" fill="#13a7a0"/>
+  <circle cx="348" cy="225" r="10" fill="#ef8a26"/>
+</svg>
