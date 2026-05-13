@@ -74,7 +74,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 22px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
 }
 
@@ -262,6 +262,13 @@ p {
 
 .publication-list p {
   margin-bottom: 6px;
+}
+
+.pub-link {
+  margin-left: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
 }
 
 .year-group {
