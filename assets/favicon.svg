@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Drone favicon">
+  <rect width="512" height="512" rx="112" fill="#ffffff"/>
+  <g fill="none" stroke="#15171c" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M256 229 L154 153 M256 229 L358 153 M256 283 L154 359 M256 283 L358 359" stroke-width="24"/>
+    <rect x="196" y="211" width="120" height="90" rx="34" stroke-width="28"/>
+    <path d="M230 211 L248 174 H264 L282 211" stroke-width="22"/>
+    <circle cx="154" cy="153" r="49" stroke-width="24"/>
+    <circle cx="358" cy="153" r="49" stroke-width="24"/>
+    <circle cx="154" cy="359" r="49" stroke-width="24"/>
+    <circle cx="358" cy="359" r="49" stroke-width="24"/>
+    <path d="M110 153 H198 M314 153 H402 M110 359 H198 M314 359 H402" stroke-width="18"/>
+    <path d="M154 109 V197 M358 109 V197 M154 315 V403 M358 315 V403" stroke-width="18"/>
+  </g>
+</svg>
