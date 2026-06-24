@@ -60,6 +60,17 @@ a:hover {
   border-bottom: 1px solid var(--line);
 }
 
+.site-signature {
+  position: fixed;
+  top: 22px;
+  left: 24px;
+  width: 90px;
+  height: auto;
+  opacity: 0.42;
+  pointer-events: none;
+  z-index: 5;
+}
+
 .site-title {
   color: rgba(34, 39, 46, 0.72);
   font-size: 20px;
@@ -88,7 +99,9 @@ a:hover {
 }
 
 .page {
-  display: block;
+  display: grid;
+  grid-template-columns: var(--sidebar) minmax(0, var(--content));
+  gap: 64px;
   max-width: calc(var(--page-width) + var(--page-pad) * 2);
   margin: 0 auto;
   padding: 42px var(--page-pad) 72px;
@@ -96,10 +109,8 @@ a:hover {
 }
 
 .sidebar {
-  position: fixed;
-  top: 104px;
-  left: max(var(--page-pad), calc((100vw - var(--page-width)) / 2));
-  width: var(--sidebar);
+  position: static;
+  align-self: start;
 }
 
 .avatar {
@@ -176,7 +187,6 @@ a:hover {
 }
 
 .content {
-  margin-left: calc(var(--sidebar) + 64px);
   max-width: var(--content);
   min-width: 0;
 }
@@ -250,6 +260,11 @@ p {
   height: 20px;
 }
 
+.school-logo-ivy {
+  width: 72px;
+  height: 24px;
+}
+
 .publication-list {
   margin: 18px 0 0;
   padding-left: 24px;
@@ -306,6 +321,10 @@ p {
     gap: 10px;
     padding: 16px 22px;
     max-width: 100vw;
+  }
+
+  .site-signature {
+    display: none;
   }
 
   .page {
