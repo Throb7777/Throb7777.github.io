@@ -60,21 +60,21 @@ a:hover {
   border-bottom: 1px solid var(--line);
 }
 
-.site-signature {
-  position: fixed;
-  top: 22px;
-  left: 24px;
-  width: 90px;
-  height: auto;
-  opacity: 0.42;
-  pointer-events: none;
-  z-index: 5;
-}
-
 .site-title {
   color: rgba(34, 39, 46, 0.72);
   font-size: 20px;
   font-weight: 700;
+}
+
+.site-signature {
+  position: fixed;
+  bottom: 34px;
+  left: max(24px, calc((100vw - var(--page-width) - var(--page-pad) * 2) / 2 + var(--page-pad)));
+  width: 114px;
+  height: auto;
+  opacity: 0.48;
+  pointer-events: none;
+  z-index: 5;
 }
 
 .site-title:hover {
