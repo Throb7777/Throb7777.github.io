@@ -68,8 +68,8 @@ a:hover {
 
 .site-signature {
   position: fixed;
-  bottom: 34px;
-  left: max(24px, calc((100vw - var(--page-width) - var(--page-pad) * 2) / 2 + var(--page-pad)));
+  bottom: 46px;
+  left: 48px;
   width: 114px;
   height: auto;
   opacity: 0.48;
