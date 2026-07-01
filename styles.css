@@ -280,21 +280,33 @@ p {
 }
 
 .publication-year {
-  margin-bottom: 44px;
+  margin-bottom: 40px;
 }
 
 .publication-year:last-child {
   margin-bottom: 0;
 }
 
-.publication-year h3 {
+.publication-year h3,
+.awards-page .year-group h3 {
   margin-bottom: 16px;
-  font-size: 22px;
-  line-height: 1.15;
+  color: #1f2328;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.publication-year h3::after,
+.awards-page .year-group h3::after {
+  content: "";
+  height: 1px;
+  flex: 1;
+  background: var(--soft-line);
 }
 
 .publication-entry {
-  margin-bottom: 34px;
+  margin-bottom: 30px;
+  padding-left: 4px;
 }
 
 .publication-entry:last-child {
@@ -303,10 +315,10 @@ p {
 
 .publication-entry h4 {
   margin: 0 0 7px;
-  color: #343a40;
-  font-size: 16.8px;
+  color: #444c54;
+  font-size: 17px;
   font-weight: 700;
-  line-height: 1.32;
+  line-height: 1.38;
 }
 
 .publication-entry p {
@@ -315,10 +327,14 @@ p {
 
 .pub-authors {
   color: #57606a;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 .pub-venue {
   color: #4f5963;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 .pub-actions {
@@ -336,7 +352,31 @@ p {
 }
 
 .year-group {
-  margin-bottom: 26px;
+  margin-bottom: 40px;
+}
+
+.year-group:last-child {
+  margin-bottom: 0;
+}
+
+.awards-page .plain-list {
+  padding-left: 20px;
+}
+
+.awards-page .plain-list li {
+  margin: 0 0 14px;
+  color: #3f464d;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.awards-page .plain-list li:last-child {
+  margin-bottom: 0;
+}
+
+.awards-page .plain-list li::marker {
+  color: var(--muted);
 }
 
 .timeline {
