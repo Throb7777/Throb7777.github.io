@@ -135,7 +135,7 @@ a:hover {
 .alias {
   margin: 0 0 12px;
   color: #57606a;
-  font-size: 13.8px;
+  font-size: 14px;
   font-style: italic;
   line-height: 1.45;
 }
@@ -149,7 +149,7 @@ a:hover {
 .current-degree {
   margin: 0 0 12px;
   color: var(--muted);
-  font-size: 13.8px;
+  font-size: 14px;
   line-height: 1.5;
 }
 
