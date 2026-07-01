@@ -276,11 +276,11 @@ p {
 }
 
 .publication-list {
-  margin: 20px 0 0;
+  margin: 18px 0 0;
 }
 
 .publication-year {
-  margin-bottom: 40px;
+  margin-bottom: 36px;
 }
 
 .publication-year:last-child {
@@ -289,11 +289,18 @@ p {
 
 .publication-year h3,
 .awards-page .year-group h3 {
-  margin-bottom: 16px;
   color: #1f2328;
   font-size: 20px;
   font-weight: 700;
   line-height: 1.2;
+}
+
+.publication-year h3 {
+  margin-bottom: 14px;
+}
+
+.awards-page .year-group h3 {
+  margin-bottom: 16px;
 }
 
 .publication-year h3::after,
@@ -305,7 +312,7 @@ p {
 }
 
 .publication-entry {
-  margin-bottom: 30px;
+  margin-bottom: 27px;
   padding-left: 4px;
 }
 
@@ -439,16 +446,16 @@ p {
 
   .education-page .timeline-item p {
     margin-bottom: 5px;
-    line-height: 1.35;
+    line-height: 1.4;
   }
 
   .education-page .timeline-item .subtitle {
-    font-size: 13.8px;
+    font-size: 14px;
   }
 
   .education-page .timeline-item .meta,
   .education-page .date {
-    font-size: 13.3px;
+    font-size: 13.8px;
   }
 
   .education-page .school-logo-seal {
